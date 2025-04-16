@@ -1,12 +1,20 @@
 {
   "name": "abbed",
   "version": "1.0.0",
-  "description": "",
+  "description": "A health and fitness tracking app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
+  "keywords": [
+    "health",
+    "fitness",
+    "tracking",
+    "weight"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
@@ -21,6 +29,8 @@
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.4"
+    "tailwindcss": "^4.1.4",
+    "eslint": "^8.26.0",
+    "eslint-config-next": "^12.3.1"
   }
 }
